@@ -8,10 +8,6 @@ export default function Header(){
                 <img src={logo} alt="comapny logo" />
             </div>
             <div>
-                <h1>whitpace</h1>
-            </div>
-           
-            <div>
                 <img src={menuBtn} alt="comapny logo" />
             </div>
         </header>
