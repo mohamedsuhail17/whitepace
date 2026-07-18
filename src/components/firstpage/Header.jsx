@@ -10,7 +10,7 @@ export default function Header(){
             <div>
                 <h1>whitpace</h1>
             </div>
-           
+           <h1>hiiiiiiiiiiiiiiii</h1>
             <div>
                 <img src={menuBtn} alt="comapny logo" />
             </div>
