@@ -15,7 +15,7 @@ export default function Header(){
                 <button>Login</button>
             </div>
 
-            <div className="hidden 2xl:block  w-55 h-16 text-white bg-btn-free-trial rounded-lg items-center justify-center px-6 py-4 flex flex-row gap-4">
+            <div className="hidden 2xl:block  w-55 h-16 text-white bg-btn-free-trial rounded-lg items-center justify-center px-6 py-4 2xl:flex 2xl:gap-4">
                  <span>Try Whitepace Free</span> 
                  <div className="w-[10px] h-[10px]">
                      <img className="w-full h-full" src={rightArrow} alt="arrow" />
