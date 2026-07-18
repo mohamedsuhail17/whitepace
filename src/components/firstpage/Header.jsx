@@ -8,7 +8,7 @@ export default function Header(){
                 <img src={logo} alt="comapny logo" />
             </div>
             <div>
-                <h1>whitepace</h1>
+                <h1>whitpace</h1>
             </div>
            
             <div>
