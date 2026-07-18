@@ -1,6 +1,9 @@
-import Header from "./components/firstpage/Header"
+import FirstPage from "./components/firstpage/FirstPage";
+
 export default function App(){
   return (
-    <Header />
+    <>
+      <FirstPage />
+    </>
   )
 }

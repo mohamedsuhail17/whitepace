@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
 @theme{
-  --color-bg-header: #043873;
+  --color-first-page: #043873;
+  --color-btn-free-trial: #4F9CF9;
+  --color-image-container: #C4DEFD;
+  --color-btn-login: #FFE492;
+  --text-header4: 1.980rem;
+
 }
