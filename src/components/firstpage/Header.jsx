@@ -7,6 +7,8 @@ export default function Header(){
             <div className="logo">
                 <img src={logo} alt="comapny logo" />
             </div>
+           
+           
             <div>
                 <img src={menuBtn} alt="comapny logo" />
             </div>
