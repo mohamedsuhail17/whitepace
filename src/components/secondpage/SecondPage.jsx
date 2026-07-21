@@ -4,7 +4,7 @@ import workTogetherImage from "/src/assets/content2/Work-Together-Image.png"
 export default function SecondPage(){
     return (
         <section className="work-management">
-            <article className="flex flex-col mb-[100px] xl:flex-row xl:justify-between xl:gap-4">
+            <article className="flex flex-col mb-[100px] xl:flex-row xl:justify-between xl:items-center xl:gap-8">
                 <div className="content1">
 
                     <div className="get-started">
@@ -25,7 +25,7 @@ export default function SecondPage(){
 
                 </div>
             </article>
-            <article className="flex flex-col xl:flex-row-reverse xl:justify-between xl:gap-4">
+            <article className="flex flex-col xl:flex-row-reverse xl:justify-between xl:items-center xl:gap-8">
                 <div className="content2">
 
                     <div className="get-started">
