@@ -1,5 +1,6 @@
 import rightArrow from "/src/assets/Group 212.png"
 import bgImgFirst from "/src/assets/Element.png"
+import Button from "../button/Button"
 
 export default function FirstPage(){
     return(
@@ -11,14 +12,14 @@ export default function FirstPage(){
                 <p className="text-center text-lg text-white mb-15 xl:mb-0 xl:text-start">
                     Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks
                 </p>
-                <div className="mx-auto py-8 w-58 h-15 text-white bg-btn-free-trial rounded-lg mb-25 flex items-center justify-center gap-4 xl:p xl:mb-0 xl:mx-0">
-                    <span>Try TasKey Free</span> 
-                    <div className="w-[10px] h-[10px]">
-                        <img className="w-full h-full" src={rightArrow} alt="arrow" />
-                    </div>
-                </div>
+                <Button 
+                    className="mx-auto py-8 w-58 h-15 text-white bg-btn-free-trial rounded-lg mb-25 flex items-center justify-center gap-4 xl:p xl:mb-0 xl:mx-0"
+                >
+                    Try TasKey Free
+                </Button>
             </div>
-            <div className="bg-image-container h-50 max-w-7/10 w-full mx-auto text-white xl:h-full xl:max-w-full">
+            <div className="bg-image-container min-h-[191px] max-w-8/10 w-full mx-auto text-white
+            md:min-h-[361px] xl:h-full xl:max-w-full">
             </div>
         </section>
     )
