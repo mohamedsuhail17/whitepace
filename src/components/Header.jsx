@@ -5,7 +5,7 @@ import rightArrow from "/src/assets/Group 212.png"
 
 export default function Header(){
     return(
-        <header className="flex justify-between items-center p-4 md:p-6 xl:p-8 mb-10 xl:justify-end gap-6 4xl:px-52">
+        <header className="flex bg-first-page justify-between items-center p-4 md:p-6 xl:p-8 xl:justify-end gap-6 4xl:px-52">
             
             <div className="logo xl:mr-auto">
                 <img src={logo} alt="comapny logo" />
