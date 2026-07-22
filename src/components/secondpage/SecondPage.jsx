@@ -15,7 +15,7 @@ export default function SecondPage(){
                             </p>
                         </div>
                         <Button
-                            className="btn-get-started "
+                            className="btn-get-started self-center"
                         >
                             Get Started
                         </Button>
@@ -36,7 +36,7 @@ export default function SecondPage(){
                             </p>
                         </div>
                         <Button
-                            className="btn-get-started "
+                            className="btn-get-started self-center"
                         >
                             Try it now
                         </Button>

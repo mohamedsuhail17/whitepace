@@ -26,7 +26,7 @@
 }
 
 .btn-get-started{
-  @apply bg-btn-free-trial rounded-lg w-50 h-18 flex items-center justify-center gap-4 text-white mb-15 self-center xl:self-start
+  @apply bg-btn-free-trial rounded-lg w-50 h-18 flex items-center justify-center gap-4 text-white mb-15 xl:self-start
 }
 
 .text-block{
