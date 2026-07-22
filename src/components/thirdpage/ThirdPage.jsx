@@ -15,7 +15,7 @@ export default function ThirdPage(){
                         </p>
                     </div>
                     <Button 
-                        className="btn-get-started"
+                        className="btn-get-started self-center"
                         >
                         Let's Go
                     </Button>

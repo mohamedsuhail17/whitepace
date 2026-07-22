@@ -16,7 +16,7 @@ export default function FourthPage(){
                             Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.
                         </p>
                     </div>
-                    <Button className="btn-get-started">
+                    <Button className="btn-get-started self-center">
                         Let's Go
                     </Button>
                 </div>
