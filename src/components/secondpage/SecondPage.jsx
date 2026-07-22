@@ -42,8 +42,8 @@ export default function SecondPage(){
                         </Button>
                     </div>
                 </div>
-                <div className={`bg-[url('${workTogetherImage}')] bg-image-container max-w-8/10 w-full min-h-[191px] self-center md:min-h-[367px]`}>
-
+                <div className={`bg-[url('${workTogetherImage}')] bg-image-container max-w-8/10 w-full min-h-[191px] self-center md:max-h-[367px] flex justify-center items-center`}>
+                    <img src={workTogetherImage} className="w-full h-full object-cover" alt="icon in center with two circles" />
                 </div>
             </article>
         </section>

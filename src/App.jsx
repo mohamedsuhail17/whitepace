@@ -5,6 +5,7 @@ import ThirdPage from "./components/thirdpage/ThirdPage";
 import FourthPage from "./components/fourthpage/FourthPage";
 import SixthPage from "./components/sixthpage/SixthPage";
 import SeventhPage from "./components/seventhpage/SeventhPage";
+import EighthPage from "./components/eighthpage/EighthPage";
 
 export default function App(){
   return (
@@ -16,6 +17,7 @@ export default function App(){
       <FourthPage />
       <SixthPage />
       <SeventhPage />
+      <EighthPage />
     </>
   )
 }
