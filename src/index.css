@@ -53,3 +53,12 @@
 .illustration{
   @apply bg-image-container max-w-8/10 w-full min-h-[191px] self-center md:min-h-[367px]
 }
+
+
+/*-------------*/
+/* Eighth Page */
+/*-------------*/
+.sponsors-container{
+  @apply flex flex-col gap-25 items-center xl:flex-row xl:justify-between
+}
+
