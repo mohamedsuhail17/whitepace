@@ -4,22 +4,29 @@ import Button from "../button/Button"
 
 export default function FirstPage(){
     return(
-        <section className={`grid bg-[url('${bgImgFirst})] bg-first-page bg-blend-multiply px-4 md:px-6 xl:px-8 pt-30 pb-15 xl:grid-cols-2 4xl:mx-auto 4xl:max-w-380  `}>
-            <div className="xl:flex xl:flex-col xl:items-start xl:gap-14 2xl:py-10 4xl:mb-">
-                <h4 className="h-22 w-72 text-header4 px-4 mx-auto mb-6 font-bold text-white xl:text-6xl xl:text-start xl:px-0 xl:mx-0 xl:py-2 xl:w-fit xl:mb-8">
-                    Get More Done with whitepace
-                </h4>
-                <p className="text-center text-lg text-white mb-15 xl:mb-0 xl:text-start">
-                    Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks
-                </p>
+        <section 
+            className="first-page"
+            >
+            <div className="flex flex-col gap-15 xl:flex-1">
+                <div className="text-container">
+                    <h4 className="heading1">
+                        Get More Done with whitepace
+                    </h4>
+                    <p className="">
+                        Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks
+                    </p>
+                </div>
+                
                 <Button 
-                    className="mx-auto py-8 w-58 h-15 text-white bg-btn-free-trial rounded-lg mb-25 flex items-center justify-center gap-4 xl:p xl:mb-0 xl:mx-0"
+                    className="btn-get-started self-center"
                 >
                     Try TasKey Free
                 </Button>
             </div>
-            <div className="bg-image-container min-h-[191px] max-w-8/10 w-full mx-auto text-white
-            md:min-h-[361px] xl:h-full xl:max-w-full">
+            <div className="image-container-1 xl:flex-1">
+                {/* <div className="image-element">
+
+                </div> */}
             </div>
         </section>
     )

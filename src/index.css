@@ -15,7 +15,36 @@
   --breakpoint-4xl: 120rem;
 }
 
+/*---------------*/
+/*  FIRST PAGE   */
+/*---------------*/
+.first-page{
+  @apply bg-first-page flex flex-col items-center xl:flex-row px-4 py-20 md:px-20 md:pt-35 md:pb-25 xl:px-8 xl:py-35 2xl:py-25 4xl:px-55 4xl:py-35
+}
 
+.block-1{
+   
+}
+
+.text-container{
+  @apply font-inter text-white text-center xl:text-start
+}
+
+.heading1{
+  @apply text-[clamp(2.25rem,_3vw,_3.374rem)] font-bold mb-6 md:text-[clamp(3.375rem,_10vw,_4rem)] 
+}
+
+.description1{
+  @apply text-[1.125rem]
+}
+
+.image-container-1{
+  @apply bg-image-container w-[17.875rem] md:w-[34.4375rem] h-[11.9375rem] md:h-[22.9375rem] xl:w-[32.875rem] xl:h-[21.90rem] 2xl:w-[42.875rem] 2xl:h-[28.5rem] xl:flex-1
+}
+
+.image-element{
+  @apply  w-full h-full
+}
 /*SECOND PAGE*/
 .work-management{
   @apply bg-white px-4 py-20  md:px-5 md:py-25 xl:px-8 xl:py-35 4xl:px-55

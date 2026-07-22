@@ -5,7 +5,7 @@ export default function ThirdPage(){
     return (
         <section className="third-page">
             <article className="flex flex-col xl:flex-row xl:justify-content xl:items-center">
-                <div className="heading3">
+                <div className="heading3 flex-1">
                     <div className="text-block2">
                         <h4 className="text-4xl font-bold font-inter mb-6">
                             Use as Extension
@@ -20,7 +20,7 @@ export default function ThirdPage(){
                         Let's Go
                     </Button>
                 </div>
-                <div className="illustration">
+                <div className="illustration flex-1">
 
                 </div>
                 

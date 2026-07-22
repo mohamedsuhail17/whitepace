@@ -5,7 +5,7 @@ export default function SecondPage(){
     return (
         <section className="work-management">
             <article className="flex flex-col mb-[100px] xl:flex-row xl:justify-between xl:items-center xl:gap-8">
-                <div className="content1">
+                <div className="content1 flex-1">
 
                     <div className="get-started">
                         <div className="text-block">
@@ -21,12 +21,12 @@ export default function SecondPage(){
                         </Button>
                     </div>
                 </div>
-                <div className="bg-image-container max-w-8/10 w-full min-h-[191px] self-center md:min-h-[367px]">
+                <div className="bg-image-container max-w-8/10 w-full min-h-[191px] self-center md:min-h-[367px] flex-1">
 
                 </div>
             </article>
             <article className="flex flex-col xl:flex-row-reverse xl:justify-between xl:items-center xl:gap-8">
-                <div className="content2">
+                <div className="content2 flex-1">
 
                     <div className="get-started">
                         <div className="text-block">
@@ -42,8 +42,8 @@ export default function SecondPage(){
                         </Button>
                     </div>
                 </div>
-                <div className={`bg-[url('${workTogetherImage}')] bg-image-container max-w-8/10 w-full min-h-[191px] self-center md:max-h-[367px] flex justify-center items-center`}>
-                    <img src={workTogetherImage} className="w-full h-full object-cover" alt="icon in center with two circles" />
+                <div className="bg-[url('/src/assets/content2/Work-Together-Image.png')] w-full  h-full bg-no-repeat min-h-[191px] self-center md:max-h-[367px] flex justify-center items-center overflow-hidden flex-1 object-cover">
+                    {/* <img src={workTogetherImage} className="w-full h-full object-contain" alt="icon in center with two circles" /> */}
                 </div>
             </article>
         </section>
