@@ -1,12 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 @import "tailwindcss";
 
 @theme{
+  --font-inter: "Inter", sans-serif;
   --color-first-page: #043873;
   --color-btn-free-trial: #4F9CF9;
   --color-image-container: #C4DEFD;
   --color-btn-login: #FFE492;
+ 
   --text-header4: 1.980rem;
   --breakpoint-xl: 72rem;
   --breakpoint-2xl:  90rem;
   --breakpoint-4xl: 120rem;
+}
+
+
+/*SECOND PAGE*/
+.work-management{
+  @apply bg-white px-4 py-20  md:px-5 md:py-25 xl:px-8 xl:py-35 4xl:px-55
+}
+
+.get-started{
+  @apply flex flex-col text-center xl:text-start xl:max-w-5/6 xl:w-full 2xl:max-w-full 
+}
+
+.btn-get-started{
+  @apply bg-btn-free-trial rounded-lg w-50 h-18 flex items-center justify-center gap-4 text-white mb-15 self-center xl:self-start
+}
+
+.text-block{
+  @apply bg-[url('/src/assets/content1/Element.png')]
+}
+
+/*THIRD PAGE*/
+.third-page{
+  @apply bg-first-page text-white px-4 py-20 md:px-5 md:py-25 xl:px-8 xl:py-35 4xl:px-55
+}
+
+.heading3{
+  @apply flex flex-col
+}
+
+.text-block2{
+  @apply text-center xl:text-start
+}
+
+.illustration{
+  @apply bg-image-container max-w-8/10 w-full min-h-[191px] self-center md:min-h-[367px]
 }

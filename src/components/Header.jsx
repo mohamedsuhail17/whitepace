@@ -2,6 +2,7 @@ import '/src/App.css'
 import logo from "/src/assets/Logo.png"
 import menuBtn from "/src/assets/Btn.png"
 import rightArrow from "/src/assets/Group 212.png"
+import Button from './button/Button'
 
 export default function Header(){
     return(
@@ -33,13 +34,11 @@ export default function Header(){
                 <button>Login</button>
             </div>
 
-            <div className="hidden xl:block  w-55 h-16 text-white bg-btn-free-trial rounded-lg items-center justify-center px-6 py-4 xl:flex xl:gap-4">
-                 <span>Try Whitepace Free</span> 
-                 <div className="w-[10px] h-[10px]">
-                     <img className="w-full h-full" src={rightArrow} alt="arrow" />
-                 </div>
-            </div>
-           
+            <Button
+                className="hidden xl:block  w-55 h-16 text-white bg-btn-free-trial rounded-lg items-center justify-center px-6 py-4 xl:flex xl:gap-4"
+            >
+                Try Whitepace free
+            </Button>
             <div className="2xl:hidden">
                 <img src={menuBtn} alt="comapny logo" />
             </div>
