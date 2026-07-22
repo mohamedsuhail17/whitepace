@@ -30,12 +30,12 @@
   @apply font-inter text-white text-center xl:text-start
 }
 
-.heading1{
+.heading-1{
   @apply text-[clamp(2.25rem,_3vw,_3.374rem)] font-bold mb-6 md:text-[clamp(3.375rem,_10vw,_4rem)] 
 }
 
-.description1{
-  @apply text-[1.125rem]
+.description-1{
+  @apply text-[1.125rem] leading-[1.875rem] 
 }
 
 .image-container-1{
@@ -55,7 +55,7 @@
 }
 
 .btn-get-started{
-  @apply bg-btn-free-trial rounded-lg w-50 h-18 flex items-center justify-center gap-4 text-white mb-15 xl:self-start
+  @apply bg-btn-free-trial rounded-lg w-50 h-18 flex items-center justify-center gap-4 text-white 
 }
 
 .text-block{

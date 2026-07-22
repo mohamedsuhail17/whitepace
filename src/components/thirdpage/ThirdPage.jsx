@@ -4,7 +4,7 @@ export default function ThirdPage(){
 
     return (
         <section className="third-page">
-            <article className="flex flex-col xl:flex-row xl:justify-content xl:items-center">
+            <article className="flex flex-col gap-15 xl:flex-row xl:justify-content xl:items-center">
                 <div className="heading3 flex-1">
                     <div className="text-block2">
                         <h4 className="text-4xl font-bold font-inter mb-6">
@@ -15,7 +15,7 @@ export default function ThirdPage(){
                         </p>
                     </div>
                     <Button 
-                        className="btn-get-started self-center"
+                        className="btn-get-started self-center xl:self-start"
                         >
                         Let's Go
                     </Button>

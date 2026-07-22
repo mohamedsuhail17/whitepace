@@ -4,7 +4,7 @@ import workTogetherImage from "/src/assets/content2/Work-Together-Image.png"
 export default function SecondPage(){
     return (
         <section className="work-management">
-            <article className="flex flex-col mb-[100px] xl:flex-row xl:justify-between xl:items-center xl:gap-8">
+            <article className="flex flex-col gap-15 mb-[100px] xl:flex-row xl:justify-between xl:items-center xl:gap-8">
                 <div className="content1 flex-1">
 
                     <div className="get-started">
@@ -15,7 +15,7 @@ export default function SecondPage(){
                             </p>
                         </div>
                         <Button
-                            className="btn-get-started self-center"
+                            className="btn-get-started self-center xl:self-start"
                         >
                             Get Started
                         </Button>
@@ -25,7 +25,7 @@ export default function SecondPage(){
 
                 </div>
             </article>
-            <article className="flex flex-col xl:flex-row-reverse xl:justify-between xl:items-center xl:gap-8">
+            <article className="flex flex-col gap-15 xl:flex-row-reverse xl:justify-between xl:items-center xl:gap-8">
                 <div className="content2 flex-1">
 
                     <div className="get-started">
@@ -36,7 +36,7 @@ export default function SecondPage(){
                             </p>
                         </div>
                         <Button
-                            className="btn-get-started self-center"
+                            className="btn-get-started self-center xl:self-start"
                         >
                             Try it now
                         </Button>

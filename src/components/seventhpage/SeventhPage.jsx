@@ -15,7 +15,7 @@ export default function SeventhPage() {
           The app is open source and your notes are saved to an open format, so you'll always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access them.
         </p>
         <div className="flex flex-col items-center">
-            <Button className="btn-get-started">
+            <Button className="btn-get-started xl:self-start">
                 Read more
             </Button>
         </div>

@@ -16,7 +16,7 @@ export default function NinthPage(){
                         Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success.
                     </p>
                 </div>
-                <Button className="btn-get-started self-center">
+                <Button className="btn-get-started self-center xl:self-start">
                     Read More
                 </Button>
             </div>   
