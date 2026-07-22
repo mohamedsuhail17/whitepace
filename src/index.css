@@ -33,7 +33,11 @@
   @apply bg-[url('/src/assets/content1/Element.png')]
 }
 
-/*THIRD PAGE*/
+
+/*-------------*/
+/* THIRD PAGE  */
+/*-------------*/
+
 .third-page{
   @apply bg-first-page text-white px-4 py-20 md:px-5 md:py-25 xl:px-8 xl:py-35 4xl:px-55
 }
