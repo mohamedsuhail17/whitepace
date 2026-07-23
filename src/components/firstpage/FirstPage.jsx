@@ -5,20 +5,20 @@ import Button from "../button/Button"
 export default function FirstPage(){
     return(
         <section 
-            className="first-page"
+            className="first-page gap-15"
             >
             <div className="flex flex-col gap-15 xl:flex-1">
                 <div className="text-container">
-                    <h4 className="heading1">
+                    <h4 className="heading-1">
                         Get More Done with whitepace
                     </h4>
-                    <p className="">
+                    <p className="description-1">
                         Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks
                     </p>
                 </div>
                 
                 <Button 
-                    className="btn-get-started self-center"
+                    className="btn-get-started self-center xl:self-start"
                 >
                     Try TasKey Free
                 </Button>
