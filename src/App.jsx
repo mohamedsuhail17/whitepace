@@ -10,6 +10,7 @@ import EighthPage from "./components/eighthpage/EighthPage";
 import NinthPage from "./components/ninthpage/NinthPage";
 import EleventhPage from "./components/eleventhpage/EleventhPage";
 import Footer from "./components/footer/Footer";
+import FifthPage from "./components/fifthpage/FifthPage";
 
 
 export default function App(){
@@ -20,6 +21,7 @@ export default function App(){
       <SecondPage />
       <ThirdPage />
       <FourthPage />
+      <FifthPage />
       <SixthPage />
       <SeventhPage />
       <EighthPage />
