@@ -4,12 +4,12 @@ import appsImg from "/src/assets/page9/Apps.png"
 export default function NinthPage(){
     return (
         <section className="ninth-page">
-            <div className="xl:w-[55vw] flex-1">
+            <div className="flex-1">
                 <img className="w-full h-full " src={appsImg} alt="" />
             </div>
-            <div className="flex flex-col gap-15 xl:items-start flex-1">
+            <div className="flex flex-col gap-15 xl:items-start flex-1  2xl:w-[75vw]">
                 <div className="text-block text-white text-center xl:text-start">
-                    <h4 className="text-4xl font-bold mb-6">
+                    <h4 className="heading-9">
                         Work with Your Favorite Apps Using whitepace
                     </h4>
                     <p className="leading-[1.875rem]">

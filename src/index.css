@@ -9,6 +9,7 @@
   --color-image-container: #C4DEFD;
   --color-btn-login: #FFE492;
   --color-line: #2E4E73;
+  --color-card-btn: #FFE492;
  
   --text-header4: 1.980rem;
   --breakpoint-xl: 72rem;
@@ -84,6 +85,12 @@
   @apply bg-image-container max-w-8/10 w-full min-h-[191px] self-center md:min-h-[367px]
 }
 
+/*-------------*/
+/* Fifth Page */
+/*-------------*/
+.heading-5{
+  @apply 
+}
 
 /*-------------*/
 /* Eighth Page */
@@ -97,4 +104,8 @@
 /*-------------*/
 .ninth-page{
   @apply bg-first-page px-4 py-20 md:px-5 md:py-35 xl:px-8 4xl:px-55 flex flex-col gap-25 items-center xl:flex-row xl:justify-between 
+}
+
+.heading-9{
+  @apply text-[clamp(2.25rem,_3vw,_3.374rem)] font-bold mb-6 md:text-[clamp(3.375rem,_10vw,_4rem)] xl:text-[clamp(4rem,_20vw,_4.5rem)]
 }
