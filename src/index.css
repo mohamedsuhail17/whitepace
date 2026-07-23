@@ -33,7 +33,7 @@
 }
 
 .heading-1{
-  @apply text-[clamp(2.25rem,_3vw,_3.374rem)] font-bold mb-6 md:text-[clamp(3.375rem,_10vw,_4rem)] 
+  @apply text-[clamp(2.25rem,_10vw,_3.374rem)] font-bold mb-6 md:text-[clamp(3.375rem,_10vw,_4rem)] 
 }
 
 .description-1{
